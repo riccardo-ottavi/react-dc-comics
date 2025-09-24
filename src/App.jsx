@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import MyHeader from './components/MyHeader'
 import ContentContainer from './components/ContentContainer'
+import OrizzontalNav from './components/OrizzontalNav'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <>
       <MyHeader></MyHeader>
       <ContentContainer></ContentContainer>
+      <OrizzontalNav></OrizzontalNav>
     </>
   )
 }

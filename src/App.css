@@ -53,3 +53,13 @@ a {
   font-weight: 600;
 }
 
+.orizzontal-nav-box {
+  height: 155px;
+  background-color: #0282F9;
+}
+
+.orizzontal-nav ul{
+  display: flex;
+}
+
+
