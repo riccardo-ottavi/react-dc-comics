@@ -2,7 +2,7 @@ export default function MyFooter() {
 return (<footer> 
             <div className="footer-box">
                 <div className="my-footer">
-                    <div className="btn">SIGN-UP NOW!</div>
+                    <div className="btn"><a href=""><span>SIGN-UP NOW!</span></a></div>
                     <div className="social-box">
                             <a href=""><span>FOLLOW US</span></a>
                             <a href=""><img src="./img/footer-facebook.png" alt="" /></a>
