@@ -6,6 +6,7 @@ import MyHeader from './components/MyHeader'
 import ContentContainer from './components/ContentContainer'
 import OrizzontalNav from './components/OrizzontalNav'
 import VericalNav from './components/VerticalNav'
+import MyFooter from './components/MyFooter'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <ContentContainer></ContentContainer>
       <OrizzontalNav></OrizzontalNav>
       <VericalNav></VericalNav>
+      <MyFooter></MyFooter>
     </>
   )
 }
