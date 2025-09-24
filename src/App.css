@@ -88,3 +88,12 @@ li div{
   color: white;
   height: 55px;
 }
+
+.vertical-nav-box {
+  height: 360px;
+}
+
+.vertical-nav-box img {
+  width: 100%;
+  height: 100%;
+}

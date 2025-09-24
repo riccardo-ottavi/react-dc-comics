@@ -5,6 +5,7 @@ import './App.css'
 import MyHeader from './components/MyHeader'
 import ContentContainer from './components/ContentContainer'
 import OrizzontalNav from './components/OrizzontalNav'
+import VericalNav from './components/VerticalNav'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <MyHeader></MyHeader>
       <ContentContainer></ContentContainer>
       <OrizzontalNav></OrizzontalNav>
+      <VericalNav></VericalNav>
     </>
   )
 }
