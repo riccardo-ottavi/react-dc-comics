@@ -13,14 +13,14 @@ body {
   width: 70%;
   margin: 0 auto;
 
-  height: 118px;
+  height: 138px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .content-box {
-  height: 130px;
+  height: 155px;
   background-color: black;
   display: flex;
   align-items: center;
@@ -57,7 +57,7 @@ header a {
 }
 
 .orizzontal-nav-box {
-  height: 140px;
+  height: 150px;
   background-color: #0282F9;
   display: flex;
   align-items: center;
@@ -95,7 +95,7 @@ li div{
 }
 
 .vertical-nav-box {
-  height: 360px;
+  height: 380px;
   background-image: url("./img/footer-bg.jpg");
   display: flex;
 }
@@ -151,7 +151,7 @@ li div{
 }
 
 .footer-box {
-  height: 110px;
+  height: 120px;
   background-color: #303030;
   display: flex;
   color: white;
