@@ -13,7 +13,7 @@ body {
   width: 70%;
   margin: 0 auto;
 
-  height: 138px;
+  height: 128px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,7 +95,7 @@ li div{
 }
 
 .vertical-nav-box {
-  height: 380px;
+  height: 400px;
   background-image: url("./img/footer-bg.jpg");
   display: flex;
 }
