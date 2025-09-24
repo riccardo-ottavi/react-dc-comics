@@ -9,12 +9,30 @@ body {
 }
 
 .header-box {
+  /*dopo centralizza queste due regole*/
   width: 70%;
   margin: 0 auto;
+
   height: 118px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.content-box {
+  height: 130px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.content-box * {
+  color: white;
 }
 
 
