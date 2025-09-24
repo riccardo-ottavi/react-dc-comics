@@ -56,10 +56,35 @@ a {
 .orizzontal-nav-box {
   height: 155px;
   background-color: #0282F9;
+  display: flex;
+  align-items: center;
+}
+
+.orizzontal-nav {
+  width: 70%;
+  margin: 0 auto;
+  
 }
 
 .orizzontal-nav ul{
+  display: flex; 
+  align-items: center;
+  list-style: none;
   display: flex;
+  justify-content: space-between;
 }
 
 
+li div{
+  display: flex; 
+  align-items: center;
+}
+
+.orizzontal-nav a {
+  color: white;
+}
+
+.orizzontal-nav img {
+  color: white;
+  height: 55px;
+}

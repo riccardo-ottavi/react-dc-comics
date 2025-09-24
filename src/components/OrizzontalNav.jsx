@@ -10,25 +10,25 @@ return (<div className="orizzontal-nav-box">
                     </li>
                     <li>
                         <div>
-                            <img src="./img/buy-comics-digital-comics.png" alt="" />
+                            <img src="./img/buy-comics-merchandise.png" alt="" />
                             <a href="">Digital Comics</a>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <img src="./img/buy-comics-digital-comics.png" alt="" />
+                            <img src="./img/buy-comics-subscriptions.png" alt="" />
                             <a href="">Digital Comics</a>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <img src="./img/buy-comics-digital-comics.png" alt="" />
+                            <img src="./img/buy-comics-shop-locator.png" alt="" />
                             <a href="">Digital Comics</a>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <img src="./img/buy-comics-digital-comics.png" alt="" />
+                            <img src="./img/buy-dc-power-visa.svg" alt="" />
                             <a href="">Digital Comics</a>
                         </div>
                     </li>
