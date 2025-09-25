@@ -1,6 +1,5 @@
 import './App.css'
 import MyHeader from './components/MyHeader'
-
 import MyFooter from './components/MyFooter'
 import MyMain from './components/MyMain'
 
