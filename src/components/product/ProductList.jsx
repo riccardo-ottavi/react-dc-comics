@@ -13,7 +13,7 @@ export default function ProductList(){
                 {comics.map(comics => (
                     <div key={comics.title} className="prod-card">
                         <img src={comics.thumb} alt={comics.title} />
-                        <h3>{comics.title}</h3>
+                        <h3>{comics.series}</h3>
                     </div>
                 ))}
 
