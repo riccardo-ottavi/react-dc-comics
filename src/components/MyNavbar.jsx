@@ -15,7 +15,7 @@ export default function MyNavbar() {
     return (
         <ul>
             {dcLinks.map((link) => (
-                <li>{link.label}</li>
+                <li><a href="https://www.youtube.com/watch?v=3BFTio5296w&list=RD3BFTio5296w&start_radio=1">{link.label}</a></li>
             ))}
         </ul>
     );
