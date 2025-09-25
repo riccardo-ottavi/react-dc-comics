@@ -10,7 +10,7 @@ body {
 
 .header-box {
   /*dopo centralizza queste due regole*/
-  width: 70%;
+  width: 65%;
   margin: 0 auto;
 
   height: 128px;
@@ -27,7 +27,7 @@ body {
 }
 
 .content {
-  width: 70%;
+  width: 65%;
   margin: 0 auto;
 }
 
@@ -68,7 +68,7 @@ header a {
 }
 
 .orizzontal-nav {
-  width: 65%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -114,7 +114,7 @@ li div{
 .vertical-nav {
   max-height: 263px;
   display: flex;
-  width: 70%;
+  width: 65%;
   margin: 0 auto;
   margin-top: 50px;
   justify-content: space-between;
@@ -160,7 +160,7 @@ li div{
 }
 
 .my-footer {
-  width: 70%;
+  width: 65%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -195,4 +195,24 @@ footer a {
   color: #0282F9;
   font-size: 20px;
   font-weight: 700;
+}
+
+.jumbo-container {
+  height: 340px;
+  background-image: url("../public/img/jumbotron.jpg");
+}
+
+.jumbo-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-container {
+  background-color: black;
+  color: white;
+}
+
+.card-container img{
+  width: 185px;
+  height: 185px;
 }
