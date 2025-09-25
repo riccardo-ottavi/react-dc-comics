@@ -1,11 +1,11 @@
 import ContentContainer from "./ContentContainer";
-import OrizzontalNav from "./OrizzontalNav";
+import BannerDigital from "./BannerDigital";
 
 export default function MyMain() {
     return(
     <>
         <ContentContainer></ContentContainer>
-        <OrizzontalNav></OrizzontalNav>
+        <BannerDigital></BannerDigital>
     </>)
    
 }

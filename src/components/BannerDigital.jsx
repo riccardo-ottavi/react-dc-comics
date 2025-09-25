@@ -1,4 +1,4 @@
-export default function OrizzontalNav() {
+export default function BannerDigital() {
 return (<div className="orizzontal-nav-box">
             <div className="orizzontal-nav">
                 <ul>

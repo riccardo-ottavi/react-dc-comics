@@ -1,10 +1,10 @@
 import MySocialFooter from "./MySocialFooter";
-import VerticalNav from './VerticalNav'
+import SectionsFooter from './SectionsFooter'
 
 export default function MyFooter() {
 return (
     <>
-    <VerticalNav></VerticalNav>
+    <SectionsFooter></SectionsFooter>
     <MySocialFooter></MySocialFooter>
     </>
 );

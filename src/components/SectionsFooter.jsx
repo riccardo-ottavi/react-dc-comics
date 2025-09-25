@@ -1,4 +1,4 @@
-export default function VericalNav() {
+export default function SectionsFooter() {
 return (<div className="vertical-nav-box">
             <div className="vertical-nav">
                 <div className="vertical-nav-section">
