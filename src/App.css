@@ -214,20 +214,30 @@ footer a {
 .card-container {
   color: white;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
   flex-wrap: wrap;
   width: 65%;
+  gap: 12px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .card-container img{
   width: 185px;
+  max-width: 100%;
   height: 185px;
 }
 
 .prod-card {
-  background-color: white;
-  width: 100%;
-  border: 1px solid black;
+  width: calc((100% / 6) - (60px / 6));
 
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+.prod-card img {
+  
 }
