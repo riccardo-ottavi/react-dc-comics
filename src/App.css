@@ -6,13 +6,17 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: black;
+}
+
+header {
+  background-color: white;
 }
 
 .header-box {
   /*dopo centralizza queste due regole*/
   width: 65%;
   margin: 0 auto;
-
   height: 128px;
   display: flex;
   justify-content: space-between;
@@ -208,11 +212,22 @@ footer a {
 }
 
 .card-container {
-  background-color: black;
   color: white;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  flex-wrap: wrap;
+  width: 65%;
 }
 
 .card-container img{
   width: 185px;
   height: 185px;
+}
+
+.prod-card {
+  background-color: white;
+  width: 100%;
+  border: 1px solid black;
+
 }

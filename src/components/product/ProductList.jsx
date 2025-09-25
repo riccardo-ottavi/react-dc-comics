@@ -8,7 +8,7 @@ export default function ProductList(){
             
 
             <div className="container card-container">
-                <h2>Lista prodotti</h2>
+                
                 {/* Card di prodotto  */}
                 {comics.map(comics => (
                     <div key={comics.title} className="prod-card">
