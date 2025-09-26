@@ -1,4 +1,5 @@
 import comics from "./comics"
+import MyCard from "./MyCard"
 
 export default function ProductList(){
     return(
@@ -11,10 +12,7 @@ export default function ProductList(){
                 
                 {/* Card di prodotto  */}
                 {comics.map(comics => (
-                    <div key={comics.title} className="prod-card">
-                        <img src={comics.thumb} alt={comics.title} />
-                        <h3>{comics.series}</h3>
-                    </div>
+                   
                 ))}
 
 
