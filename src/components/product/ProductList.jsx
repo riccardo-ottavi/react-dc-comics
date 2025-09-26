@@ -12,7 +12,10 @@ export default function ProductList(){
                 
                 {/* Card di prodotto  */}
                 {comics.map(comics => (
-                   
+                    <MyCard
+                        key={comics.id}
+                        productProp={comics}
+                />         
                 ))}
 
 
